@@ -1,5 +1,5 @@
 defmodule ListLength do
-  def call() do
-    #TO DO
+  def call(list) do
+    list |> Enum.count()
   end
 end
